@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shakespeare Monkey</title>
+    <script src="./DNA.js" defer></script>
+    <script src="./Population.js" defer></script>
+    <script src="./sketch.js" defer></script>
+    <script src="./p5.min.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="best-container">
+        <h1>Best Phrase:</h1>
+        <h1 id="best-phrase"></h1>
+      </div>
+      <div id="info-container">
+        <p>
+          Total generations: <span id="total-generations" class="stat"></span>
+        </p>
+        <p>
+          Total population: <span id="total-population" class="stat"></span>
+        </p>
+        <p>Mutation rate: <span id="mutation-rate" class="stat"></span>%</p>
+      </div>
+      <div id="all-container">
+        <h2>All phrases</h2>
+        <div id="phrases-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
